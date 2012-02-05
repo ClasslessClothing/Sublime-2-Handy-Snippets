@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	*Filename:				style.css
+	*Author:				Michael Belardo	  
+	https://plus.google.com/u/0/101904153270919294720/
+/*=-=-=-=-=-=-=-=-=-=-=-=-Reset=-==-=-=-=-=-=-=-=-=-=-=-=-=*/
+* { margin:0; padding:0; }
+html, body { height:100%; }
+body { font: Helvetica, Verdana, sans-serif; }
+
+/*=-=-=-=-=-=-=-=-=-=-General Style=-=-=-=-=-=-=-=-=-=-=-=-*/
+#page-wrap {
+	width: 960px;
+	min-height: 100%; height: auto !important; height: 100%;
+	margin 0 auto -150px; /*negative value is footer height*/
+}
+
+/*=-=-=-=-=-=-=-=-=-=-Header Style=-=-=-=-=-=-=-=-=-=-=-=-=*/
+header { }
+#logo { }
+
+/*=-=-=-=-=-=-=-=-=-=-Nav Styles=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+nav { }
+
+/*=-=-=-=-=-=-=-=-=-=-Footer Style=-=-=-=-=-=-=-=-=-=-=-=-=*/
+footer #push { height: 150px; clear:both; }
+
+/*=-=-=-=-=-=-=-=-=-=-Content Style=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+/*=-=-=-=-=-=-=-=-=-=-Sidebar Style=-=-=-=-=-=-=-=-=-=-=-=-*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bootstrapCSS</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

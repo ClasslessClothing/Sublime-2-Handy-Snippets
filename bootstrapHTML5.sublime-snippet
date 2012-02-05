@@ -1,0 +1,46 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title></title>
+	<link href="css/styles.css" rel="Stylesheet" type="text/css" />
+	<script src="scripts/jquery-1.7.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="page-wrap">
+		<header>
+			<div id="logo">
+				<h1></h1>
+			</div><!--END logo-->
+			<nav>
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<article>
+			</article>
+			<article>
+			</article>
+		</section>
+		<aside>
+		</aside>
+		<div id="push"></div>
+	</div><!--END page-wrap-->
+	<footer>
+	</footer>
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bootstrapHTML5</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.HTML</scope> -->
+</snippet>
