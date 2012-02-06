@@ -1,9 +1,29 @@
-Some useful HTML/CSS snippets for Sublime 2.
+Some useful HTML/CSS snippets for Sublime 2 Brought to you by Terrodactyl Designs and Allusis Designs. These snippets are free to use/modify/overthrow dictatorships with. Enjoy!
 
+bootstrapHTML5, bootstrapCSS:
 Pre built template for HTML5 and CSS layout to rapidly frame a page.
 
-Complete nav, ul, li, a menu snippet for fast menus.
+navigation:
+Complete HTML5 nav, ul, li, a menu snippet for fast menus.
 
-CSS comments with space in between. For rapid CSS titles.
+comments:
+CSS  multi line comments with space in between. For rapid CSS/jscript titles.
 
+docready:
 jQuery docready function snippet.
+
+bootstrap:
+
+css:
+
+cssreset:
+
+footer:
+
+gradient:
+
+header:
+
+html5:
+
+ul-li:
