@@ -15,18 +15,23 @@ jQuery docready function snippet.
 baconipsum1-3:
 1 to 3 <p> full of bacon information from wikipedia (included link back to article for copyright and author credit in all 3)
 
-bootstrap:
+CSS (tab + "css"): 
+Quick reset for margin and padding. Sets Helvetica as page font with fallback for Windows users.
 
-css:
+CSSReset (tab + "reset"): 
+Richard Clark's (html5doctor.com) html5 reset.
 
-cssreset:
+Footer (tab + "footer"): 
+HTML5 footer tag with .footer DIV.
 
-footer:
+Gradient (tab + "gradient"): 
+Colorzilla's cross-browser gradient styles with white / grey coloring
 
-gradient:
+Header (tab + "header"): 
+HTML5 header tag with .header DIV.
 
-header:
+HTML5 (tab + "html5"): 
+HTML5 declaration (head and body) with html5shiv and JQuery (from Google Code) included.
 
-html5:
-
-ul-li:
+ULLI (tab + "ulli"): 
+Adds HTML for un-ordered list with a tags
