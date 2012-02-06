@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<p>Bacon is a cured meat prepared from a pig. It is first cured using large quantities of salt, either in a brine or in a dry packing; the result is fresh bacon (also known as green bacon). Fresh bacon may then be further dried for weeks or months in cold air, boiled, or smoked. Fresh and dried bacon must be cooked before eating. Boiled bacon is ready to eat, as is some smoked bacon, but may be cooked further before eating.</p>
+
+<a href="http://en.wikipedia.org/wiki/Bacon" alt="Mmmmmm Bacon">Learn more about Bacon!!</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>baconipsum2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

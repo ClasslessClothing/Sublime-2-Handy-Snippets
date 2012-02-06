@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<p>Bacon is a cured meat prepared from a pig. It is first cured using large quantities of salt, either in a brine or in a dry packing; the result is fresh bacon (also known as green bacon). Fresh bacon may then be further dried for weeks or months in cold air, boiled, or smoked. Fresh and dried bacon must be cooked before eating. Boiled bacon is ready to eat, as is some smoked bacon, but may be cooked further before eating.</p>
+
+<p>Bacon is prepared from several different cuts of meat. It is usually made from side and back cuts of pork, except in the United States, where it is almost always prepared from pork belly (typically referred to as "streaky", "fatty", or "American style" outside of the US and Canada). The side cut has more meat and less fat than the belly. Bacon may be prepared from either of two distinct back cuts: fatback, which is almost pure fat, and pork loin, which is very lean. Bacon-cured pork loin is known as back bacon.
+Bacon may be eaten smoked, boiled, fried, baked, or grilled, or used as a minor ingredient to flavor dishes. Bacon is also used for barding and larding roasts, especially game, e.g. venison, pheasant. The word is derived from the Old High German bacho, meaning "buttock", "ham" or "side of bacon", and cognate with the Old French bacon.
+In continental Europe, this part of the pig is usually not smoked like bacon is in the United States; it is used primarily in cubes (lardons) as a cooking ingredient, valued both as a source of fat and for its flavor. In Italy, this is called pancetta and is usually cooked in small cubes or served uncooked and thinly sliced as part of an antipasto.
+Meat from other animals, such as beef, lamb, chicken, goat, or turkey, may also be cut, cured, or otherwise prepared to resemble bacon, and may even be referred to as "bacon".Such use is common in areas with significant Jewish and Muslim populations. The USDA defines bacon as "the cured belly of a swine carcass"; other cuts and characteristics must be separately qualified (e.g., "smoked pork loin bacon"). For safety, bacon must be treated to prevent trichinosis, caused by Trichinella, a parasitic roundworm which can be destroyed by heating, freezing, drying, or smoking.</p>
+
+<a href="http://en.wikipedia.org/wiki/Bacon" alt="Mmmmmm Bacon">Learn more about Bacon!!</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>baconipsum2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
