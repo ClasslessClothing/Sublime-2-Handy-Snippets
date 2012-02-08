@@ -2,8 +2,5 @@
 	<content><![CDATA[
 <link rel="stylesheet" type="text/css" href="http://dl.dropbox.com/u/1621719/development/css/bootstrap2.css">
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bootstrap</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
 </snippet>
