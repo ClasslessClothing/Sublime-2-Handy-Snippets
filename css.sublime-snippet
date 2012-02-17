@@ -4,15 +4,13 @@
 |  Styles by Tony Montemorano of Allusis Productions      |
 |  http://gplus.to/allusis - http://allusis.net           |
 |--------------------------------------------------------*/
-html, body {
-  margin:0;
-  padding:0;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  font-size:100%;
-}
-ul,li,div {margin:0;padding:0}
+html, body {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-weight: 300;font-size:100%;}
+.clear {clear:both}
+.hidden {display:none}
 
 ]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>css</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
 </snippet>
