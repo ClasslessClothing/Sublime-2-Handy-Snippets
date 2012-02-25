@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+# Write a descript
+#
+# name - this line goes in help
+#
+
+module.exports = (robot) ->
+	robot.hear /triggerword/i, (msg) ->
+		msg.send "Hello world"
+]]></content>
+	<tabTrigger>hubothear</tabTrigger>
+</snippet>
