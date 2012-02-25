@@ -38,3 +38,6 @@ Adds HTML for un-ordered list with a tags
 
 HubotHear:
 Basic hubot .hear listener script framework
+
+HubotRespond:
+Basic hubot .respond listener script framework
