@@ -35,3 +35,9 @@ HTML5 declaration (head and body) with html5shiv and JQuery (from Google Code) i
 
 ULLI (tab + "ulli"): 
 Adds HTML for un-ordered list with a tags
+
+HubotHear:
+Basic hubot .hear listener script framework
+
+HubotRespond:
+Basic hubot .respond listener script framework
