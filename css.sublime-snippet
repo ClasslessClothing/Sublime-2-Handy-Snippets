@@ -1,12 +1,11 @@
 <snippet>
 	<content><![CDATA[
-/* -------------------------------------------------------|
-|  Styles by Tony Montemorano of Allusis Productions      |
-|  http://gplus.to/allusis - http://allusis.net           |
-|--------------------------------------------------------*/
-html, body {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-weight: 300;font-size:100%;}
+html, body {font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-weight:300;font-size:100%}
 .clear {clear:both}
-.hidden {display:none}
+.group:before,.group:after {content:"";display:table}
+.group:after {clear:both}
+.group {zoom:1}
+.hidden {position:absolute !important;top:-9999px !important;left:-9999px !important}
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
