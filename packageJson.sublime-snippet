@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+{
+  name: "",
+  version: "x.x.x",
+  author: "TerrordactylDesigns",
+  description: "",
+  contributors: [
+    {
+      name: "",
+      email: ""
+    }
+  ],
+  repository: {
+    type: "git",
+    url: ""
+  },
+  dependencies: {
+  	express: "2.5.7"
+  },
+  engines: {
+    "node": ">=0.8.x"
+  }
+}
+	]]></content>
+	<tabTrigger>packageJson</tabTrigger>
+</snippet>

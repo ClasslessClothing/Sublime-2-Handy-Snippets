@@ -6,6 +6,9 @@ Pre built template for HTML5 and CSS layout to rapidly frame a page.
 bootstrapExpress:
 Pre built template for a bare bones Node.js Express server/app file.
 
+packageJson:
+Template for a package.JSON file for a Node.js with Express site
+
 navigation:
 Complete HTML5 nav, ul, li, a menu snippet for fast menus.
 
