@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+//	load express
+try {
+	var express = require('express');
+} catch (err) {
+	console.log(err);
+    console.log("[ ERROR ] : express failed to initialize. Please ensure you have installed express.");
+    process.exit(33);
+}
+//	create the express server instance
+console.log('[ HTTPServer ] : Loading Server');
+var app = express.createServer();
+//  declare the views folder
+app.set('views', './views');
+//  declare static handler for serving css
+app.configure(function() {
+  app.use(express.static('./public'));
+});
+//  declare the view engine as jade
+app.set('view engine', 'jade');
+
+
+// Routes
+
+require('./routes/home')(app);
+
+
+//	Start Listener
+app.listen(process.env.port || 3000);
+console.log('Express server is running');
+	]]></content>
+	<tabTrigger>bootstrapExpress</tabTrigger>
+</snippet>

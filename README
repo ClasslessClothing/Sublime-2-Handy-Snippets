@@ -3,6 +3,9 @@ Some useful HTML/CSS snippets for Sublime 2 Brought to you by Terrodactyl Design
 bootstrapHTML5, bootstrapCSS:
 Pre built template for HTML5 and CSS layout to rapidly frame a page.
 
+bootstrapExpress:
+Pre built template for a bare bones Node.js Express server/app file.
+
 navigation:
 Complete HTML5 nav, ul, li, a menu snippet for fast menus.
 

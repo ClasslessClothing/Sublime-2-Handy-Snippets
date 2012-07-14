@@ -2,30 +2,51 @@
 	<content><![CDATA[
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	*Filename:				style.css
-	*Author:				Michael Belardo	  
-	http://Gplus.to/TerrorDactylDesigns
-						   ZZZ
-						ZZZZZZZ
-					OZZZZZZZ
-				8ZZZZZZZZ	   DZZZZZZZZZZZZZ
-		    OZZZZZZZZZ		 ZZZZZZZZZZZZZZZZZO
-		 ZZZZZZZZZZZZZ        ZZZZ          ZZZ
-		 ZZZZZZZZ  ZZZZ       DZZZ         ZZZZ
-		  ZZZ       ZZZZ       ZZZZ        ZZZ
-					 ZZZZ      DZZZZ      ZZZZ
-					 ZZZZZ      ZZZZD   DZZZZ
-					  ZZZZ       ZZZZ  ZZZZZ
-					   ZZZZ       ZZZZZZZZZ
-						ZZZZ      ZZZZZZZZ
-						ZZ        ZZZZZZZ
-								   ZZZ
+	*Author:				Michael Belardo
 	Includes sticky footer code and css reset 
 /*=-=-=-=-=-=-=-=-=-=-=-=-Reset=-==-=-=-=-=-=-=-=-=-=-=-=-=*/
 /* CSS Reset */
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+html,body,div,span,object,iframe,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,form,label,caption,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;background:transparent;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
 
 html, body { height:100%; }
-body { font: Helvetica, Verdana, sans-serif; }
+
+input { font-family: Sans-Serif; } /* IE input box fix */
+
+/*body { font-family: Verdana, Helvetica, sans-serif; }*/
+/*
+* { 
+	-webkit-transition: all 0.2s ease;
+  	-moz-transition:    all 0.2s ease;
+  	-ms-transition:     all 0.2s ease; 
+} */
+/*=-=-=-=-=-=-=-=-=-=-=-=Tool Kit=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+.floatleft { float: left; }
+.clearboth { clear:both; }
+.floatright { float:right; }
+.auto { overflow:auto; }
+.serif { font-family: Georgia, serif; }
+.sansserif { font-family: Helvetica, Arial, sans-serif; }
+.red { color:Red; }
+
+/*=-=-=-=-=-=-=-=-=-=-Header Style=-=-=-=-=-=-=-=-=-=-=-=-=*/
+#pageheader { margin-bottom: 20px; }
+.logo { 
+  width: ; height: ; 
+  text-indent:-9999px; 
+  background:url('../images/Logo.png');
+	background-repeat:no-repeat;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-Footer Style=-=-=-=-=-=-=-=-=-=-=-=-=*/
+#footer, #push { height: 150px; clear:both; }
+#footer {
+	text-align:center;
+	width:960px;
+	margin:0 auto;
+}
+#footer p {
+	padding-top:20px;
+}
 
 /*=-=-=-=-=-=-=-=-=-=-General Style=-=-=-=-=-=-=-=-=-=-=-=-*/
 #page-wrap {
@@ -34,15 +55,8 @@ body { font: Helvetica, Verdana, sans-serif; }
 	margin 0 auto -150px; /*negative value is footer height*/
 }
 
-/*=-=-=-=-=-=-=-=-=-=-Header Style=-=-=-=-=-=-=-=-=-=-=-=-=*/
-header { }
-#logo { }
-
 /*=-=-=-=-=-=-=-=-=-=-Nav Styles=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 nav { }
-
-/*=-=-=-=-=-=-=-=-=-=-Footer Style=-=-=-=-=-=-=-=-=-=-=-=-=*/
-footer #push { height: 150px; clear:both; }
 
 /*=-=-=-=-=-=-=-=-=-=-Content Style=-=-=-=-=-=-=-=-=-=-=-=-*/
 
