@@ -1,11 +1,13 @@
 <snippet>
 	<content><![CDATA[
-html, body {font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-weight:300;font-size:100%}
+html, body {margin:0;padding:0;font:normal 300 100.01%/1em Helvetica, Arial, "Lucida Grande", sans-serif}
+ul,li,div {margin:0;padding:0}
+a {-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out}
 .clear {clear:both}
-.group:before,.group:after {content:"";display:table}
-.group:after {clear:both}
-.group {zoom:1}
 .hidden {position:absolute !important;top:-9999px !important;left:-9999px !important}
+.bold {font-weight:700}
+.italic {font-style:italic}
+.ucase {text-transform:uppercase}
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
