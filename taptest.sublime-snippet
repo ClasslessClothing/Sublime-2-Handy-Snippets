@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+var test = require('tap').test;
+
+/*
+  TESTS
+*/
+test('test that the ', function(t) {
+
+  t.end();
+})
+]]></content>
+  <tabTrigger>taptest</tabTrigger>
+</snippet>
