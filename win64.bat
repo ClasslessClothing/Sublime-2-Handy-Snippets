@@ -1,0 +1,1 @@
+copy /Y "*.sublime-snippet" "%userprofile%\AppData\Roaming\Sublime Text 2\Packages\User"
