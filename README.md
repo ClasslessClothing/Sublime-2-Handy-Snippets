@@ -1,5 +1,11 @@
 #Some useful HTML/CSS snippets for Sublime 2 Brought to you by Terrodactyl Designs and Allusis Designs. These snippets are free to use/modify/overthrow dictatorships with. Enjoy!
 
+## Quick Installation
+If you've installed Sublime in the default directories on OsX or Win 7:
+Delete or modify any snippets as you need
+OsX - run the osx.sh script
+Win7 x64 - run the win64.bat file
+
 ###bootstrapHTML5, bootstrapCSS:
 Pre built template for HTML5 and CSS layout to rapidly frame a page.
 
