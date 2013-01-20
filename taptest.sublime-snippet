@@ -1,13 +1,13 @@
 <snippet>
   <content><![CDATA[
-var test = require('tap').test;
+var test = require('tap').test
 
 /*
   TESTS
 */
 test('test that the ', function(t) {
 
-  t.end();
+  t.end()
 })
 ]]></content>
   <tabTrigger>taptest</tabTrigger>

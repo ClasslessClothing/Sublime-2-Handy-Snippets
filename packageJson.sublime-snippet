@@ -1,24 +1,24 @@
 <snippet>
 	<content><![CDATA[
 {
-  name: "",
-  version: "x.x.x",
-  author: "TerrordactylDesigns",
-  description: "",
-  contributors: [
+  "name": "",
+  "version": "x.x.x",
+  "author": "TerrordactylDesigns",
+  "description": "",
+  "contributors": [
     {
-      name: "",
-      email: ""
+      "name": "",
+      "email": ""
     }
   ],
-  repository: {
-    type: "git",
-    url: ""
+  "repository": {
+    "type": "git",
+    "url": ""
   },
-  dependencies: {
-  	express: "2.5.7"
+  "dependencies": {
+  	"express": "3.0.x"
   },
-  engines: {
+  "engines": {
     "node": ">=0.8.x"
   }
 }

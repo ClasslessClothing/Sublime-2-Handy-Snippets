@@ -2,7 +2,7 @@
   <content><![CDATA[
 test('test that the ', function(t) {
 
-  t.end();
+  t.end()
 })
 ]]></content>
   <tabTrigger>ttest</tabTrigger>
