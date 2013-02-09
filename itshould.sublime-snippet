@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+it('should ', function() {
+  
+})
+]]></content>
+  <tabTrigger>itshould</tabTrigger>
+</snippet>

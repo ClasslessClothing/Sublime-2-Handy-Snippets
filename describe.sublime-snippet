@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+describe('[  ]', function() {
+  it('should ', function() {
+  
+  })
+})
+]]></content>
+  <tabTrigger>describe</tabTrigger>
+</snippet>
